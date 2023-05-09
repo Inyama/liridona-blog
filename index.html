@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blogging Web</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+
+	   <!-- Primary Meta Tags -->
+	   <title>Liridona - Fight Against Autoimmune Diseases</title>
+	   <meta name="title" content="Liridona - Fight Against Autoimmune Diseases">
+	   <meta name="description" content="Join our movement to raise awareness, provide support, and improve the lives of people with lupus disease.">
+	   <meta name="keywords" content="Immunity testing, Family Practice,Lupus Symptoms, Primary Care Doctor,Nearest Hospital,Autoimmune,Lupus,systemic lupus erythematosus,Immunity,Rheumatologist,Rheumatoid Arthritis,SLE,pain,Joint aches,Arthritis,Chronic disorder,Chronic disease,autoimmune disease,Myalgia,Polymyalgia,Inflammation, Recurrent infection,Chrons,Ulcerative colitis,Colonoscopy,Colostomy,Steroids,Polymyositis,Sjogren,Inflammation,Autoimmune,Lupus,Systemic Lupus Erythematosus,Immunity,Rheumatologist,Flare,Rash,Symptoms,Great pretender,HCQ,Methotrexate (Rheumatrex),Mycophenolate mofetil (Cellcept),Azathioprine (Imuran),Cyclophosphamide (Cytoxan),Voclosporin (Lupkynis),Immunosuppressives,Depression,Lupus Nephrtis,Neonatal Lupus Erythematosus (NLE)">
+   
+	   <!-- Open Graph / Facebook -->
+	   <meta property="og:type" content="website">
+	   <meta property="og:url" content="https://metatags.io/">
+	   <meta property="og:title" content="Liridona - Fight Against Autoimmune Diseases">
+	   <meta property="og:description" content="Join our movement to raise awareness, provide support, and improve the lives of people with lupus disease.">
+	   <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+   
+	   <!-- Twitter -->
+	   <meta property="twitter:card" content="summary_large_image">
+	   <meta property="twitter:url" content="https://metatags.io/">
+	   <meta property="twitter:title" content="Liridona - Fight Against Autoimmune Diseases">
+	   <meta property="twitter:description" content="Join our movement to raise awareness, provide support, and improve the lives of people with lupus disease.">
+	   <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">   
+
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<!-- Navigation Header -->
+	<nav>
+		<input type="checkbox" id="nav-toggle">
+		<img src="img/logo.png" alt="Liridona-logo" style="padding-top: 30px;">
+		<ul class="links">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About us</a></li>
+			<li class="current"><a href="#blogs">Blogs</a></li>
+			<li><a href="#blogs">Gallery</a></li>
+			<li><a href="#blogs">Events</a></li>
+			<li><a href="#projects">Contact</a></li>
+			<li type="button" data-toggle="modal" data-target="#myModal"><a href="#blogs"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+			<li class="donte"><a href="payment.html">Donate</a></li>
+		</ul>
+		<label for="nav-toggle" class="icon-burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+	</nav>
+
+	<!-- Search Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            </div>
+            
+            <div class="modal-body">
+              <h1>Search</h1>
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-input" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default" id="search">Submit</button>
+              </form>
+
+			  <div class="container">
+
+				<div class="row" id="searched-card">
+					<!-- <div class="col-lg-4 mb-4 blog">
+						<div class="post-entry-alt">
+							<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+							<div class="excerpt">
+								
+								<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+								<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+								<div class="post-meta align-items-center text-left clearfix">
+									
+								</div>
+	
+								<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+								<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+									<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+									<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 mb-4 blog">
+						<div class="post-entry-alt">
+							<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+							<div class="excerpt">
+								
+								<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+								<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+								<div class="post-meta align-items-center text-left clearfix">
+									
+								</div>
+	
+								<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+								<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+									<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+									<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-lg-4 mb-4 blog">
+						<div class="post-entry-alt">
+							<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+							<div class="excerpt">
+								
+								<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+								<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+								<div class="post-meta align-items-center text-left clearfix">
+									
+								</div>
+	
+								<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+								<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+									<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+									<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+							</div>
+						</div>
+					</div> -->
+				
+					
+				</div>
+				
+			</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+	<!-- Home  -->
+	<section class="home" id="home">
+		<div class="container-pad">
+			<h3>Insights and Inspirations-</h3>
+			<h3 class="lne-hgt">Discover Our Latest Blog Posts</h3>
+			<p>Discover the latest news, tips and stories related to lupus and other autoimmune diseases on our blog. From personal stories to expert advice. We will cover it all from your everyday life, beauty, career, mental health, fashion, family and lifestyle. We believe no aspect of your life should stop but just little adjustments for the new way of living.</p>
+		</div>
+	</section>
+
+	<!-- Carousel -->
+
+	<div class="wrapper">
+		<input checked type=radio name="slider" id="slide1" />
+		<input type=radio name="slider" id="slide2" />
+		<input type=radio name="slider" id="slide3" />
+		<input type=radio name="slider" id="slide4" />
+		<input type=radio name="slider" id="slide5" />
+	  
+		<div class="slider-wrapper">
+		  <div class=inner>
+			<article>
+			  
+			  <img src="img/blog-design.png" />
+			</article>
+	  
+			<article>
+			 
+			  <img src="img/blog-design.png" />
+			</article>
+	  
+			<article>
+			 
+			  <img src="img/blog-design.png" />
+			</article>
+	  
+			<article>
+			 
+			  <img src="https://farm8.staticflickr.com/7367/27980898905_72d106e501_h_d.jpg" />
+			</article>
+	  
+			<article>
+			
+			  <img src="img/blog-design.png" />
+			</article>
+		  </div>
+		  <!-- .inner -->
+		</div>
+		<!-- .slider-wrapper -->
+	  
+		<div class="slider-prev-next-control">
+		  <label for=slide1></label>
+		  <label for=slide2></label>
+		  <label for=slide3></label>
+		  <label for=slide4></label>
+		  <label for=slide5></label>
+		</div>
+		<!-- .slider-prev-next-control -->
+	  
+		<div class="slider-dot-control">
+		  <label for=slide1></label>
+		  <label for=slide2></label>
+		  <label for=slide3></label>
+		  <label for=slide4></label>
+		  <label for=slide5></label>
+		</div>
+		<!-- .slider-dot-control -->
+	  </div>
+
+	  <!-- Mid-header -->
+	  <section class="header-fixed">
+
+		<div class="header-limiter">
+			<div class="break">
+				<h1> <span class="brder"> Trending </span> <br> <span class="active">Explore the World Of <br>Lupus Disease</span></h1>
+			</div>
+	
+			<nav style="position: inherit; margin: -4em auto;">
+				<a href="#" class="active">All</a>
+				<a href="#">Tips</a>
+				<a href="#">Inspiration</a>
+				<a href="#">Lupus</a>
+				<a href="#">News</a>
+				<a href="#">Inspo</a>
+				<a href="#">Spotlight</a>
+			</nav>
+	
+		</div>
+	
+	</section>
+	
+	<div class="header-fixed-placeholder"></div>
+	
+	<!-- Blogs and Pagination -->
+	<section class="section" id="blog-list">
+		<div class="container">
+
+			<div class="row outside-card-container" id="cards">
+				<!-- <div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<div href="#" class="img-link">
+							<img src="img/blog-design-2.png" alt="Image" class="img-fluid">
+						</div>
+						<div class="excerpt">
+							
+							<p class="tips">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p class="profile">
+								<img src="img/blog2-design1-profile-img.png" alt="Image" class="img-small">
+								<span class="d-inline-block mt-1 jenny">By Jenny Agnes </span>
+								<span class="jenny">&nbsp;-&nbsp; Tues, 17 May 2023</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+
+			<!-- <div class="row outside-card-container">
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+		
+			<!-- <div class="row">
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Eating for Autoimmune Health: Tips for a Nutrient-Dense Diet</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Discover how the right nutrition can support autoimmune health with these tips for a nutrient-dense diet. Discover how the right...</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Julian Athorn </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Wed, 22 January 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4 blog">
+					<div class="post-entry-alt">
+						<a href="#" class="img-link"><img src="img/blog-design-2.png" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+							
+							<p style="margin-bottom:-1em; margin-top: 10px; ">Tips</p>
+							<h2><a href="#">Managing Stress with Autoimmune Disease: Tips and Techniques</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								
+							</div>
+
+							<p>Learn how to manage stress when living with autoimmune disease with these particular tips and techniques. Learn how to manage....</p>
+							<p style="display: inline-flex;"><img src="img/blog2-design1-profile-img.png" alt="Image" class="img-fluid" style="width: 30px;">
+								<span class="d-inline-block mt-1" style="padding-top:8px;">By Jenny Agnes </span>
+								<span style="padding-top:8px;">&nbsp;-&nbsp; Tues, 17 May 2023</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+		</div>
+
+
+		<!-- Pagination -->
+		<div class="content_detail__pagination cdp" actpage="1">
+			<a href="#!-1" class="cdp_i">prev</a>
+			<a href="#!1" class="cdp_i">1</a>
+			<a href="#!2" class="cdp_i">2</a>
+			<a href="#!3" class="cdp_i">3</a>
+			<a href="#!4" class="cdp_i">4</a>
+			<a href="#!5" class="cdp_i">5</a>
+			<a href="#!6" class="cdp_i">6</a>
+			<a href="#!7" class="cdp_i">7</a>
+			<a href="#!8" class="cdp_i">8</a>
+			<a href="#!9" class="cdp_i">9</a>
+			<a href="#!10" class="cdp_i">10</a>
+			<a href="#!11" class="cdp_i">11</a>
+			<a href="#!12" class="cdp_i">12</a>
+			<a href="#!13" class="cdp_i">13</a>
+			<a href="#!14" class="cdp_i">14</a>
+			<a href="#!15" class="cdp_i">15</a>
+      <a href="#!16" class="cdp_i">16</a>
+			<a href="#!17" class="cdp_i">17</a>
+			<a href="#!18" class="cdp_i">18</a>
+			<a href="#!19" class="cdp_i">19</a>
+			<a href="#!+1" class="cdp_i">next</a>
+		</div>
+
+	</section>
+
+	<!-- Banner -->
+	<section class="banner">
+		<div class="texts">
+			<div class="left">
+				<h3>You can contribute to our <br> cause and help us with <br> special needs!</h3>
+			</div>
+			<div class="buttons">
+				<p class="green"> Join as a volunteer </p>
+				<p class="donate"> Donate </p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<hr class="border-lne">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="widget1">
+						<div class="logo">
+							<img src="img/logo.png" alt="Liridona-logo" style="width: 75%;">
+						</div>
+						<p>
+							We are a non-profit organization dedicated to putting an end to lupus disease. Our mission
+							is to raise awareness, provide advocacy, and offer support to those who have been diagnosed.
+						</p>
+						<div class="socialLinks">
+							<ul style="margin-left: -3em;">
+								<li>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="fab fa-youtube"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="widget2">
+						<p style="color: #373737;">
+							Address:
+						</p>
+						<div class="media">
+							<div class="media-body d-flex align-self-center">
+								<div class="content">
+									<p>
+										No 18 Odiyan Street, off ikate Lekki, Lagos, Nigeria
+									</p>
+									<p>
+										email@liridonafoundation.org<br>Call: +2347042204226
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-2">
+					<div class="widget3">
+						<ul style="margin-top: 2em;">
+							<li>
+								<a href="#">
+									about
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									contact
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									gallery
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									events
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-2">
+					<div class="widget4">
+						<ul style="margin-top: 2em;">
+							<li>
+								<a href="#">
+									blogs
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									donate
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									terms of Use
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Privacy Policy
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyRightArea">
+			<div class="container" style="margin-top: 30px; margin-bottom: -30px;">
+				<div class="row">
+					<div class="col-12 text-center">
+						<p>&copy; 2023 Liridona Autoimmune Foundation. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>
